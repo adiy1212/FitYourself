@@ -1,0 +1,48 @@
+[
+	{
+		"mealtime": "ארוחת בוקר",
+		"mealname": "",
+		"mealpic": "",
+		"ing1": " ",
+		"ing2": " ",
+		"ing3": "",
+		"ing4": " ",
+		"mealId": ""
+	}, {
+		"mealtime": "ארוחת ביניים ראשונה",
+		"mealname": "",
+		"mealpic": "",
+		"ing1": "",
+		"ing2": "  ",
+		"ing3": " ",
+		"ing4": "  ",
+		"mealId": ""
+	}, {
+		"mealtime": "ארוחת צהריים",
+		"mealname": "  ",
+		"mealpic": "",
+		"ing1": " ",
+		"ing2": "  ",
+		"ing3": "    ",
+		"ing4": "  ",
+		"mealId": ""
+	}, {
+		"mealtime": "ארוחת ביניים שנייה",
+		"mealname": " ",
+		"mealpic": "",
+		"ing1": " ",
+		"ing2": " ",
+		"ing3": " ",
+		"ing4": "  ",
+		"mealId": ""
+	}, {
+		"mealtime": " ארוחת ערב",
+		"mealname": "",
+		"mealpic": "",
+		"ing1": " ",
+		"ing2": "  ",
+		"ing3": "  ",
+		"ing4": "    ",
+		"mealId": ""
+	}
+] 

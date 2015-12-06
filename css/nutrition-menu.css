@@ -1,0 +1,103 @@
+
+
+
+
+/* container design*/
+
+#nutContainer{
+	width: 70%;
+	margin: 0 auto;
+	margin-bottom:5em;
+}
+
+#nutMenuContainer{
+	
+	
+}
+
+
+/* nut menus design*/
+#nutritionMenus{
+	display: inline-block;
+	vertical-align: top;
+	width: 25%;
+	margin: 1em;
+	margin-right:3em;
+}
+
+.specialMenu{
+	border: 2px solid #92CBA6;
+	position: relative;
+	width: 100%;
+	height: 10em;
+	
+}
+
+.nutMenuHeadline{
+	position: absolute;
+	bottom:0;
+	color: white;
+	font-weight: bold;
+	font-size: 1.2em;
+	background-color: rgba(1, 1, 1, 0.2);
+	margin:0 auto;
+	text-align: center;
+	width:100%;
+}
+.nutMenuHeadline:hover, .text-glow:focus, .text-glow:active{
+	   text-shadow: 1px 0px 20px yellow;
+	   transition: width 0.3s; 
+	   color: #F0FC04;
+	   cursor: pointer;
+}
+.specialMenu:hover, .text-glow:focus, .text-glow:active{
+	border: 3px solid #F0FC04;
+	text-shadow: 1px 0px 20px yellow;
+	transition: width 0.3s; 
+	color: #F0FC04;
+	cursor: pointer;
+}
+
+#keepWeight{
+	background: url("../images/keep.jpg") no-repeat 0 0;
+	background-size: 100% 100%;
+}
+#vegan{
+	background: url("../images/vegan.JPG") no-repeat 0 0;
+	background-size: 100% 100%;
+	
+}
+#fiber{
+	background: url("../images/fibers.jpg") no-repeat 0 0;
+	background-size: 100% 100%;
+}
+#kids{
+	background: url("../images/kids.jpg") no-repeat 0 0;
+	background-size: 100% 100%;
+}
+#calcium{
+	background: url("../images/calcium.jpg") no-repeat 0 0;
+	background-size: 100% 100%;
+}
+#healthy{
+	background: url("../images/healthy.jpg") no-repeat 0 0;
+	background-size: 100% 100%;
+}
+#pregnant{
+	background: url("../images/pregnant.jpg") no-repeat 0 0;
+	background-size: 100% 100%;
+}
+#holidays{
+	background: url("../images/holidays.jpg") no-repeat 0 0;
+	background-size: 100% 100%;
+}
+#mine{
+	background: url("../images/mymenu.png") no-repeat 0 0;
+	background-size: 100% 100%;
+}
+
+
+
+
+
+

@@ -1,0 +1,109 @@
+[
+
+	{
+		"excheadline": "אירובי",
+		"timesaweek": "כל תחילת אימון",
+		"programinfo": [
+
+			{
+
+				"drillName": "סקי",
+				"numOfSets": "1",
+				"numOfRepeats": "30 דקות",
+				"musclesGroup": "תאומים, סיבולת לב ריאה, ארבע ראשי" ,
+				"pic": ""
+			}, {
+				"drillName": "ריצה",
+				"numOfSets": "1",
+				"numOfRepeats": "30 דקות ",
+				"musclesGroup": "סיבולת לב ריאה, רגליים",
+				"pic": ""
+			}, {
+				"drillName": "אופניים",
+				"numOfSets": "1",
+				"numOfRepeats": "20 דקות ",
+				"musclesGroup": "סיבולת לב ריאה, רגליים",
+				"pic": ""
+			}
+		]
+	}	, {
+		"excheadline": "בטן",
+		"timesaweek": "מומלץ 3 פעמים בשבוע",
+		"programinfo": [
+			{
+				"drillName": "כפיפות רגילות ",
+				"numOfSets": "3",
+				"numOfRepeats": "20",
+				"musclesGroup": "בטן קדמית" ,
+				"pic": "http://roofknoxville.info/Business_Data/Images/Article_1_image0.gif"
+			}, {
+				"drillName": "אלכסונים",
+				"numOfSets": "3",
+				"numOfRepeats": "15",
+				"musclesGroup": " שרירי בטן צדדיים",
+				"pic": ""
+			}
+		]
+	}, {
+		"excheadline": "שחייה",
+		"timesaweek": "מומלץ פעמיים בשבוע",
+		"programinfo": [
+			{
+				"drillName": "חתירה",
+				"numOfSets": "3",
+				"numOfRepeats": "300 מטר",
+				"musclesGroup": "יד קדמית,זרוע דו-ראשי,גב" ,
+				"pic": ""
+			}, {
+				"drillName": "חזה",
+				"numOfSets": "3",
+				"numOfRepeats": "300 מטר",
+				"musclesGroup": "יד קדמית,חזה" ,
+				"pic": ""
+			}, {
+				"drillName": "פרפר",
+				"numOfSets": "3",
+				"numOfRepeats": "300 מטר",
+				"musclesGroup": "יד קדמית,כתפיים" ,
+				"pic": ""
+			}
+		]
+	}, {
+		"excheadline": "רגליים",
+		"timesaweek": "מומלץ פעמיים בשבוע",
+		"programinfo": [
+			{
+				"drillName": "סקוואטים",
+				"numOfSets": "3",
+				"numOfRepeats": "10",
+				"musclesGroup": "ישבן,ירכיים" ,
+				"pic": "http://www.goofy.co.il/Business_Data/Images/Article_25_image0.gif"
+			}, {
+				"drillName": "כיפוף תאומים עם משקולת על הכתפיים",
+				"numOfSets": "3",
+				"numOfRepeats": "10",
+				"musclesGroup": "שרירי התאומים",
+				"pic": ""
+			}
+		]
+	}
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

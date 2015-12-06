@@ -1,0 +1,28 @@
+[
+
+	{
+		"proid": "beginnerpro",
+		"link": "program1",
+		"proheadline": "תוכנית אימונים למתחילים"
+	}, {
+		"proid": "basepro",
+		"link": "program2",
+		"proheadline": "תוכנית אימונים בסיסית"
+	}, {
+		"proid": "weightlosspro",
+		"link": "program3",
+		"proheadline": "ירידה במשקל"
+	}, {
+		"proid": "aerobicpro",
+		"link": "program4",
+		"proheadline": "אירובי פלוס"
+	}, {
+		"proid": "musclespro",
+		"link": "program5",
+		"proheadline": "פיתוח שרירים"
+	}, {
+		"proid": "mypro",
+		"link": "program6",
+		"proheadline": "הכן תוכנית אימון מותאמת אישית"
+	}
+]

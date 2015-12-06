@@ -1,0 +1,44 @@
+[
+	{
+		"letter": "א",
+		"disLink": "letter1"
+	}, {
+		"letter": "ב" ,
+		"disLink": "letter2"
+	}, {
+		"letter": "ג" ,
+		"disLink": "letter3"
+	}, {
+		"letter": "ד" ,
+		"disLink": "letter4"
+	},
+	{
+		"letter":"ה" ,
+		"disLink":"letter5" 	
+	},
+	{
+		"letter": "ו",
+		"disLink": "letter6"	
+	},
+	{
+		"letter": "ז" ,
+		"disLink": "letter7"	
+	},
+	{
+		"letter":"ח" ,
+		"disLink": "letter8"	
+	},
+	{
+		"letter":"ט",
+		"disLink": "letter9"	
+	},
+	{
+		"letter":"י" ,
+		"disLink": "letter10"	
+	}
+
+
+
+
+
+]

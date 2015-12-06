@@ -1,0 +1,77 @@
+body{
+	width: 100%;
+	height:100%;
+	direction:rtl;
+	text-align: right;
+}
+#nutContainer{
+	margin-bottom: 5em;
+}
+
+.mainHeadline{
+	//border-bottom: 1px solid #693942;
+	margin-right: 10%;
+	width: 80%;
+}
+/* article wrapper design */
+.articleWrapper{
+	
+	width: 60%;
+	margin: 0 auto;
+}
+
+/* main article design */
+.mainArticleWrap{
+	border: 1px solid #8DA9AC;
+	position: relative;
+
+	
+}
+.imgMainArticle{
+	width: 100% ;
+	height: 20em;
+	
+}
+.mainArticleWrap a {
+	text-decoration: none;
+	color: #EEDDEE;
+	width:90%;
+	position: absolute;
+	bottom: 0.4em;
+	right: 0.5em ;
+	background-color: rgba(0, 0, 0, 0.6);
+	padding: 0.5em;
+}
+
+
+/*  sub articles design*/
+
+.subArticleheaders{
+	border: 1px solid #7994A7;
+	margin: 1em;
+	background: #EEDDEE;
+}
+.subArticleheaders a,img{
+	display: inline-block;
+	vertical-align: top;
+	height:100%;
+}
+
+.subArticleheaders a{
+	width: 50%;
+	text-decoration: none;
+	color: #808080;
+	padding: 0.5em;
+}
+
+.subArticleheaders img{
+	width: 47%;
+	height: 10em;
+}
+
+.subArticleheaders p{
+	padding: 1em;
+}
+
+
+/*  */

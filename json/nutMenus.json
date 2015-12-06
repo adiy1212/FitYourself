@@ -1,0 +1,40 @@
+[
+
+	{
+		"menuid": "keepWeight",
+		"headline": "שמירה על המשקל",
+		"menulink": "specialmenu1"
+	}, {
+		"menuid": "vegan",
+		"headline": "טבעוניים וצמחוניים",
+		"menulink": "specialmenu2"
+	}, {
+		"menuid": "fiber",
+		"headline": "עשיר בסיבים",
+		"menulink": "specialmenu3"
+	}, {
+		"menuid": "kids",
+		"headline": "לילדים ונוער",
+		"menulink": "specialmenu4"
+	}, {
+		"menuid": "calcium",
+		"headline": "עשיר בסידן",
+		"menulink": "specialmenu5"
+	}, {
+		"menuid": "healthy",
+		"headline": "תפריט בריאותי",
+		"menulink": "specialmenu6"
+	}, {
+		"menuid": "pregnant",
+		"headline": "הריון ולאחר לידה",
+		"menulink": "specialmenu7"
+	}, {
+		"menuid": "holidays",
+		"headline": "לאחר החגים",
+		"menulink": "specialmenu8"
+	}, {
+		"menuid": "mine",
+		"headline": "התפריט שלי :)",
+		"menulink": "mymenu"
+	}
+]

@@ -1,0 +1,82 @@
+#about-container{
+	text-align: right;
+	direction: rtl;
+	width:100%;
+	margin-bottom: 50%;
+	
+}
+#about-us{
+	float: right;
+	width: 40%;
+	border: 1px solid #D87020;
+	padding:3%;
+	margin-right:5%;
+	overflow: hidden;
+	color: #595241;
+}
+#about-us ul {
+	list-style-type: none;
+}
+#about-us h2{
+	
+	margin: 0.2em 0;
+	text-decoration: underline;
+	color:#3D8A99;
+}
+/* articles side cubes  */
+.article-cubes{
+	position: relative;
+	float: right;
+	margin: 0 1em;
+	height: 30em;
+	width:	20% ;
+	border: 1px solid #3D8A99;
+}
+
+
+.side-cubes{
+	position:absolute;
+	margin-bottom: 2%;
+	display: block;
+	padding:1em;
+	width: 80%;
+	height: 80%;	
+}
+
+#cube1{
+	top:1em;
+	
+}
+#cube2{
+	top:13em;
+	
+}
+#cube3{
+	top:25em;
+	
+}
+.newshead{
+	color:#D87020;
+	text-decoration:  underline;
+	margin-bottom: 0.2em;
+	font-size: 1.5em;
+}
+.newsinfo{
+	border-bottom: 1px solid #ACCFCC;
+	margin:0.2em;
+}
+a{
+	text-decoration: none;
+	color:#808080;
+	
+}
+/* about slogen*/
+div#about-slogen{
+	float:right;
+	width: 22%;
+	height: 50%;
+}
+#about-slogen img{
+	width: 115%;
+	height:30em;
+}

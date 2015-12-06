@@ -1,0 +1,75 @@
+body{
+	direction: rtl;
+	text-align: right;
+	
+}
+
+*{
+	margin:0;
+	padding:0;
+}
+#menucont,#myMenuContainer{
+	background: url("../images/menu1.jpg") no-repeat 0 0;
+	background-size: 100% 100%;
+	margin: 0 auto;
+	width: 70%;
+	display:none;
+}
+.smenuctrl{	
+	width: 70%;
+	margin: 0 auto;
+	padding: 4em;
+	padding-top:7em;
+}
+.mealtime{
+	font-family: ;
+	
+}
+.smenuctrl ul {
+	text-decoration:none;
+	list-style:none;
+}
+.mealtime{
+	color:#5e0a0d;
+	margin-top:0.5em;
+}
+.mealname  {
+	
+	color:#6ca867;
+	text-align: center;
+}
+
+  li{
+	color:#d87020;
+	text-align: center;
+	
+}
+.backtomenu{
+	color: #7994A7;
+	font-weight:bold;
+	font-size: 1.5em;
+	font-family: Verdana;
+	
+}
+.backtomenu:hover, .text-glow:focus, .text-glow:active{
+	   text-shadow: 1px 0px 20px yellow;
+	   transition: width 0.3s; 
+	   color: #F5B824;
+	   cursor: pointer;
+}
+
+/* my menu   */
+#myMenuContainer button{
+	margin-right: 16em;
+    margin-top: 2em;
+    text-align: center;
+    border-radius: 10%;
+    width: 20%;
+    color:#F5B824;
+    font-size: 1.5em;
+}
+
+
+
+
+

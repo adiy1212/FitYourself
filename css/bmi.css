@@ -1,0 +1,159 @@
+html, body {
+	direction: rtl;
+	text-align: right;
+}
+/* bmi info */
+
+#bmiInfo {
+	border: 2px solid #3D8A99;
+	width: 42%;
+	color:#595241;
+	line-height: 1.5em;
+	padding: 0.6em;
+	font-size:1.3em;
+	display: none;
+	vertical-align: top;
+}
+#bmiInfo h1 {
+	font-size: 2em;
+	color: #D87020;
+	margin: 0.4em;
+	text-align: center;
+	text-decoration: underline;
+}
+#bmires{
+	color:#8A0917;
+	font-weight: bold;
+	font-size:2em;
+}
+
+
+/* BmiCalc div */
+#BmiCal {
+	display: inline-block;
+	width: 50%;
+	margin: 0 auto;
+}
+#BmiCal form {
+	position: relative;
+	width: 90%;
+	height: 400px;
+	display: inline-block;
+	border: 1px solid #7994A7;
+	padding: 1em;
+	background: url("../images/bmibackground.png") no-repeat 0 0;
+	background-size: 100% 100%;
+}
+/*BMI calc wrappers*/
+#BmiCal {
+
+}
+#CalcWrap {
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+}
+/* BMI calc fields  */
+
+.bmiFields {
+	display: block;
+	width: 80%;
+	height: 30px;
+	//border: 1px solid #7994A7;
+}
+
+.bmif {
+	position: relative;
+	display: block;
+	font-size: 1em;
+	font-family: ;
+	color:;
+	width: 40%;
+	margin: 5px;
+}
+
+.bmiFields input {
+	position: relative;
+	width: 50%;
+}
+
+.bmif span {
+	font-size: 0.5em;
+}
+
+#bmiAge {
+	position: absolute;
+	left: 0;
+	width: 40%;
+}
+
+#bmiGender {
+	position: absolute;
+	right: 0em;
+	width: 40%;
+}
+#personHeight {
+	position: absolute;
+	left: -2em;
+	top: 8em;
+	width: 20%;
+	height: 7em;
+}
+#personWeight {
+	position: absolute;
+	right: -2em;
+	top: 8em;
+	width: 20%;
+	height: 7em;
+}
+#bmiresultWrapper {
+	direction: ltr;
+	text-align: left;
+	position: absolute;
+	left: 9em;
+	top: 15em;
+	width: 30%;
+	height: 7em;
+}
+/* male female field  */
+#male, #female {
+	width: 10%;
+}
+#female {
+	margin-right: 15px;
+}
+
+/*  submit buttons */
+.bmiBtn {
+	width: 30%;
+	margin: 0 auto;
+}
+#bmiSubWrapper {
+	width: 50%;
+	margin: 0.5em auto;
+	position: absolute;
+	top: 21.5em;
+	right: 8em;
+}
+
+/*bmi  formula*/
+#bmiFormula {
+	display: inline-block;
+	position: relative;
+	top: -5em;
+}
+#bmiFormula img {
+	border: 1px solid #A17297;
+}
+/*  bmi graf div */
+#bmiGraph {
+	width: 40%;
+	display: inline-block;
+}
+#bmiGraph img {
+	width: 80%;
+	height: 20em;
+}
+#bmiGraph h2 {
+	font-size: 1.5em;
+}

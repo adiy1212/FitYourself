@@ -1,0 +1,109 @@
+[
+
+	{
+		"excheadline": "אירובי",
+		"timesaweek": "כל תחילת אימון",
+		"programinfo": [
+
+			{
+
+				"drillName": "סקי",
+				"numOfSets": "1",
+				"numOfRepeats": "10 דקות",
+				"musclesGroup": "תאומים, סיבולת לב ריאה, ארבע ראשי" ,
+				"pic": ""
+			}, {
+				"drillName": "הליכון",
+				"numOfSets": "1",
+				"numOfRepeats": "10 דקות ",
+				"musclesGroup": "סיבולת לב ריאה, רגליים",
+				"pic": ""
+			}
+		]
+	}	, {
+		"excheadline": "חזה",
+		"timesaweek": "מומלץ פעמיים בשבוע",
+		"programinfo": [
+			{
+				"drillName": "לחיצת חזה בשכיבה",
+				"numOfSets": "3",
+				"numOfRepeats": "10",
+				"musclesGroup": "חזה קדמי" ,
+				"pic": "http://www.goofy.co.il/Business_Data/Images/Article_20_image0.gif"
+			}, {
+				"drillName": "לחיצת חזה 45 מעלות",
+				"numOfSets": "3",
+				"numOfRepeats": "10",
+				"musclesGroup": "חזה עליון",
+				"pic": ""
+			}
+		]
+	}, {
+		"excheadline": "גב",
+		"timesaweek": "מומלץ פעמיים בשבוע",
+		"programinfo": [
+			{
+				"drillName": "מתח",
+				"numOfSets": "3",
+				"numOfRepeats": "7",
+				"musclesGroup": "דלתא אחורי, כתפיים וידיים קדמיות" ,
+				"pic": "http://www.goofy.co.il/Business_Data/Images/Article_6_image0.gif"
+			}, {
+				"drillName": "חתירה",
+				"numOfSets": "3",
+				"numOfRepeats": "10",
+				"musclesGroup": "רחב גבי, דלתא אחורי",
+				"pic": "http://www.goofy.co.il/Business_Data/Images/Article_19_image0.gif"
+			}
+		]
+	}, {
+		"excheadline": "כתפיים",
+		"timesaweek": "מומלץ פעמיים בשבוע",
+		"programinfo": [
+			{
+				"drillName": "כתפיים למעלה",
+				"numOfSets": "2",
+				"numOfRepeats": "10",
+				"musclesGroup": "שריר הטרפז" ,
+				"pic": "http://www.goofy.co.il/Business_Data/Images/Article_23_image0.gif"
+			}, {
+				"drillName": "מ.ח לצידי הגוף",
+				"numOfSets": "2",
+				"numOfRepeats": "10",
+				"musclesGroup": "כתפיים צדדיות",
+				"pic": "http://www.goofy.co.il/Business_Data/Images/Article_14_image0.gif"
+			}
+		]
+	}, {
+		"excheadline": "יד קדמית",
+		"timesaweek": "מומלץ פעמיים בשבוע",
+		"programinfo": [
+			{
+				"drillName": "מ.ח על ירך עד לחזה",
+				"numOfSets": "3",
+				"numOfRepeats": "10",
+				"musclesGroup": "יד קדמית,זרוע דו-ראשי" ,
+				"pic": "http://www.goofy.co.il/Business_Data/Images/Article_1_image0.gif"
+			}
+		]
+	}
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

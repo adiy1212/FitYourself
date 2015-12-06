@@ -1,0 +1,93 @@
+body{
+	direction: rtl;
+	text-align: right;	
+}
+
+
+/* letters menu design */
+#diseaseLetters{
+	margin: 0 auto;
+	width: 90%;
+}
+#dislettermenu{
+	display:inline-block;
+	width:20%;
+}
+.disletter{
+	margin: 0.7em;
+	border: 1px solid #b8ae9c;
+	color: #FFFFFF;
+	font-size: 2em;
+	width:20%;
+	display:inline-block;
+	text-align: center;
+	background-color:#accfcc;
+}
+.disletter:hover, .text-glow:focus, .text-glow:active{
+	   text-shadow: 1px 0px 20px yellow;
+	   transition: width 0.3s; 
+	   color: #F5B824;
+	   cursor: pointer;
+	   
+}
+
+
+ /* name design  */
+
+#diseaseNamewrap{
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom:7em;
+}
+li{
+	list-style-type: none;
+}
+
+#diseaseName{
+	font-size: 2em;
+	color:#808080;
+
+}
+#diseaseName:hover, .text-glow:focus, .text-glow:active{
+	   text-shadow: 1px 0px 20px yellow;
+	   transition: width 0.3s; 
+	   color: #3d8a99;
+	   cursor: pointer;
+	   
+}
+
+/* info design*/
+table{
+	width: 80%;
+	margin: 0 auto;
+	border:1px solid #7994A7;
+	
+}
+#infohead{
+	color:#8a0917;
+}
+#infohead td{
+	font-size:1.5em;
+	padding:0.25em;
+	margin: 1em;
+	text-align: center;
+	text-decoration: underline;
+}
+.specificDisease{
+	display:none;
+}
+#infobody{
+	color:#595241;
+	
+}
+#infobody td{
+	font-size:1em;
+	padding:1em;
+	margin: 2em;
+	text-align: center;
+	border:1px solid #7994A7;
+}
+
+
+
+/* footer*/

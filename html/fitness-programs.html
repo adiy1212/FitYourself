@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html ng-app="fproApp">
+
+	<head>
+		<meta charset="UTF-8" />
+		<link type="text/css" rel="stylesheet" href="../css/nutrition-main.css">
+		<link type="text/css" rel="stylesheet" href="../css/homepage.css">
+		<link type="text/css" rel="stylesheet" href="../css/fitness-programs.css">
+
+		<title>fityourself-fitness-programs</title>
+
+	</head>
+
+	<body>
+		<header>
+			<!-- Logo -->
+			<div class="logo">
+				Fit y<span><img id="logo" src="../images/fit1.png"  /></span>urself
+			</div>
+			<!--nav bar-->
+			<nav>
+				<ul id="main-menu">
+					<li >
+						<a href="homepage.html">עמוד הבית</a>
+					</li >
+					<li>
+						<a href="hfabout.html"> אודות </a>
+					</li>
+					<li >
+						<a href="nutrition-main.html"> תזונה </a>
+						<ul class="submenu1">
+							<li >
+								<a href="nutrition-main.html"> ראשי</a>
+							</li>
+							<li>
+								<a href="bmi.html"> BMI</a>
+							</li>
+							<li>
+								<a href="nutrition-menu.html">תפריטים</a>
+							</li>
+							<li>
+								<a href="nutrition-calories.html">ערך קלורי</a>
+							</li>
+						</ul>
+					</li>
+					<li >
+						<a href="fitness-main.html"> כושר </a>
+						<ul class="submenu1">
+							<li>
+								<a href="fitness-main.html"> ראשי</a>
+							</li>
+							<li>
+								<a href="fitness-programs.html"> תוכניות אימונים </a>
+							</li>
+
+						</ul>
+					</li >
+					<li >
+						<a href="health-main.html"> בריאות </a>
+						<ul class="submenu1">
+							<li>
+								<a href="health-main.html"> ראשי</a>
+							</li>
+							<li>
+								<a href="health-diagnostic.html"> אבחון מחלות</a>
+							</li>
+
+							<li>
+								<a>b </a>
+							</li>
+						</ul>
+					</li>
+					<li class="main">
+						<a href="hfcontact.html">צור קשר</a>
+					</li>
+				</ul>
+			</nav>
+
+		</header>
+
+		<div class="mainsearch" id="search">
+
+			<form>
+				<button onclick="">
+					search
+				</button>
+				<input type="text" name="mainsearch" placeholder="Enter keyboard here ..."/>
+
+			</form>
+
+		</div>
+
+		<div id="login">
+
+		</div>
+
+		<!--programs main -->
+		<div id="fitContainer">
+
+			<!-- programs wrapper -->
+			<div class="mainHeadline">
+				<h1 id="prohead">תוכניות אימונים</h1>
+
+			</div>
+
+			<div ng-controller="programsController" id="nutMenuContainer">
+
+				<div id="programMenuCont">
+					<div id="programMenus" ng-repeat="program in fprograms ">
+
+						<div id={{program.proid}} class="specialMenu" ng-click="setprogram(program.link,program.proheadline)">
+
+							<div class="proMenuHeadline">
+								{{program.proheadline}}
+							</div>
+							<div class="subheadline">
+								{{program.subheadline}}
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+				<!--special programs -->
+
+				<div id="specialProgramsWrapper">
+
+					<div class="progContainer">
+						<div class="specialprograms" ng-repeat="program in specialPrograms">
+
+							<table>
+								<thead>
+									<div class="exhead">
+										{{program.excheadline}} <span> ({{program.timesaweek}})</span>
+									</div>
+								</thead>
+								<tbody>
+									<tr >
+										<td class="exsubhead">שם התרגיל</td>
+										<td class="exsubhead">מספר סטים</td>
+										<td class="exsubhead">מספר חזרות</td>
+										<td class="exsubhead">קבוצות שרירים </td>
+										<td class="exsubhead">תיאור</td>
+
+									</tr>
+									<tr ng-repeat="drill in  program.programinfo ">
+
+										<td>{{drill.drillName}}</td>
+										<td>{{drill.numOfSets}}</td>
+										<td>{{drill.numOfRepeats}}</td>
+										<td>{{drill.musclesGroup}}</td>
+										<td><img src="{{drill.pic}}"></td>
+
+									</tr>
+								</tbody>
+							</table>
+
+						</div>
+					</div>
+					<div class="backtomenu" ng-click="backToMenu()">
+						חזור לתפריט התוכניות >>
+					</div>
+				</div>
+
+				<!--my program-->
+				<div id="myProwrapper">
+					<div class="progContainer">
+						<div class="specialprograms" ng-repeat="program in myPrograms">
+
+							<table>
+								<thead>
+									<div class="exhead">
+										שם האימון :
+										<select>
+											<option></option>
+											<option>אירובי</option>
+											<option>שחיה</option>
+											<option>חזה </option>
+											<option>בטן</option>
+											<option>גב</option>
+											<option>יד קדמית</option>
+											<option> יד אחורית</option>
+											<option> כתפיים</option>
+											<option> רגליים</option>
+											<option> אחר : </option>
+											<input type="text">
+										</select>
+
+										<span> כמה פעמים בשבוע :
+											<select>
+												<option> </option>
+												<option>פעם אחת</option>
+												<option>פעמיים</option>
+												<option>3 פעמים </option>
+												<option>4 פעמים</option>
+												<option>כל אימון</option>
+
+											</select> </span>
+									</div>
+								</thead>
+								<tbody>
+									<tr >
+										<td class="exsubhead">שם התרגיל</td>
+										<td class="exsubhead">מספר סטים</td>
+										<td class="exsubhead">מספר חזרות</td>
+										<td class="exsubhead">קבוצות שרירים </td>
+
+									</tr>
+									<tr ng-repeat="drill in  program.programinfo ">
+
+										<td>
+										<input type="text">
+										</td>
+										<td>
+										<input type="number">
+										</td>
+										<td>
+										<input type="number">
+										</td>
+										<td>
+										<input type="text">
+										</td>
+
+									</tr>
+								</tbody>
+							</table>
+
+						</div>
+					</div>
+					<div class="backtomenu" ng-click="backToMenu()">
+						חזור לתפריט התוכניות >>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+		</div>
+
+		<!-- footer -->
+
+		<footer id="mainfooter">
+			<div id="footer-container">
+
+			</div>
+		</footer>
+
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.3/angular.min.js"></script>
+		<script src="../js/programs.js"></script>
+
+	</body>
+
+</html>

@@ -1,0 +1,97 @@
+[
+
+	{
+		"excheadline": "אירובי",
+		"timesaweek": "כל תחילת אימון",
+		"programinfo": [
+
+			{
+
+				"drillName": "סקי",
+				"numOfSets": "1",
+				"numOfRepeats": "10 דקות",
+				"musclesGroup": "תאומים, סיבולת לב ריאה, ארבע ראשי" ,
+				"pic": ""
+			}, {
+				"drillName": "הליכון",
+				"numOfSets": "1",
+				"numOfRepeats": "10 דקות ",
+				"musclesGroup": "סיבולת לב ריאה, רגליים",
+				"pic": ""
+			}
+		]
+	}	, {
+		"excheadline": "חזה",
+		"timesaweek": "מומלץ פעם בשבוע",
+		"programinfo": [
+			{
+				"drillName": "לחיצת חזה בשכיבה",
+				"numOfSets": "2",
+				"numOfRepeats": "7",
+				"musclesGroup": "חזה קדמי" ,
+				"pic": "http://www.goofy.co.il/Business_Data/Images/Article_20_image0.gif"
+			}, {
+				"drillName": "לחיצת חזה 45 מעלות",
+				"numOfSets": "2",
+				"numOfRepeats": "7",
+				"musclesGroup": "חזה עליון",
+				"pic": ""
+			}
+		]
+	}, {
+		"excheadline": "גב",
+		"timesaweek": "מומלץ פעם בשבוע",
+		"programinfo": [
+			{
+				"drillName": "מתח",
+				"numOfSets": "2",
+				"numOfRepeats": "7",
+				"musclesGroup": "גב,כתפיים , ידיים" ,
+				"pic": "http://www.goofy.co.il/Business_Data/Images/Article_6_image0.gif"
+			}, {
+				"drillName": "פולי עליון לפנים",
+				"numOfSets": "3",
+				"numOfRepeats": "10",
+				"musclesGroup": "",
+				"pic": ""
+			}
+		]
+	}, {
+		"excheadline": "בטן",
+		"timesaweek": "מומלץ 3 פעמים בשבוע",
+		"programinfo": [
+			{
+				"drillName": "כפיפות רגילות ",
+				"numOfSets": "3",
+				"numOfRepeats": "20",
+				"musclesGroup": "בטן קדמית" ,
+				"pic": "http://roofknoxville.info/Business_Data/Images/Article_1_image0.gif"
+			}, {
+				"drillName": "אלכסונים",
+				"numOfSets": "3",
+				"numOfRepeats": "15",
+				"musclesGroup": " שרירי בטן צדדיים",
+				"pic": ""
+			}
+		]
+	}
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

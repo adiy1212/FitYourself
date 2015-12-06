@@ -1,0 +1,113 @@
+[
+
+	{
+		"excheadline": "חזה",
+		"timesaweek": "מומלץ פעמיים בשבוע",
+		"programinfo": [
+			{
+				"drillName": "לחיצת חזה בשכיבה",
+				"numOfSets": "3",
+				"numOfRepeats": "10",
+				"musclesGroup": "חזה קדמי" ,
+				"pic": "http://www.goofy.co.il/Business_Data/Images/Article_20_image0.gif"
+			}, {
+				"drillName": "פרפר",
+				"numOfSets": "3",
+				"numOfRepeats": "10",
+				"musclesGroup": "חזה קדמי",
+				"pic": "http://www.goofy.co.il/Business_Data/Images/Article_13_image0.gif"
+			}
+		]
+	}, {
+		"excheadline": "גב",
+		"timesaweek": "מומלץ פעמיים בשבוע",
+		"programinfo": [
+			{
+				"drillName": "מתח",
+				"numOfSets": "3",
+				"numOfRepeats": "7",
+				"musclesGroup": "דלתא אחורי, כתפיים וידיים קדמיות" ,
+				"pic": "http://www.goofy.co.il/Business_Data/Images/Article_6_image0.gif"
+			}, {
+				"drillName": "חתירה",
+				"numOfSets": "3",
+				"numOfRepeats": "10",
+				"musclesGroup": "רחב גבי, דלתא אחורי",
+				"pic": "http://www.goofy.co.il/Business_Data/Images/Article_19_image0.gif"
+			}
+		]
+	}, {
+		"excheadline": "כתפיים",
+		"timesaweek": "מומלץ פעמיים בשבוע",
+		"programinfo": [
+			{
+				"drillName": "כתפיים למעלה",
+				"numOfSets": "2",
+				"numOfRepeats": "10",
+				"musclesGroup": "שריר הטרפז" ,
+				"pic": "http://www.goofy.co.il/Business_Data/Images/Article_23_image0.gif"
+			}, {
+				"drillName": "מ.ח לצידי הגוף",
+				"numOfSets": "2",
+				"numOfRepeats": "10",
+				"musclesGroup": "כתפיים צדדיות",
+				"pic": "http://www.goofy.co.il/Business_Data/Images/Article_14_image0.gif"
+			}
+		]
+	}, {
+		"excheadline": "יד קדמית",
+		"timesaweek": "מומלץ פעמיים בשבוע",
+		"programinfo": [
+			{
+				"drillName": "מ.ח על ירך עד לחזה",
+				"numOfSets": "3",
+				"numOfRepeats": "10",
+				"musclesGroup": "יד קדמית,זרוע דו-ראשי" ,
+				"pic": "http://www.goofy.co.il/Business_Data/Images/Article_1_image0.gif"
+			}, {
+				"drillName": "פטישים",
+				"numOfSets": "3",
+				"numOfRepeats": "12",
+				"musclesGroup": "יד קדמית,זרוע דו-ראשי" ,
+				"pic": "http://www.goofy.co.il/Business_Data/Images/Article_2_image0.gif"
+			}
+		]
+	}, {
+		"excheadline": "בטן",
+		"timesaweek": "מומלץ 3 פעמים בשבוע",
+		"programinfo": [
+			{
+				"drillName": "כפיפות רגילות ",
+				"numOfSets": "3",
+				"numOfRepeats": "20",
+				"musclesGroup": "בטן קדמית" ,
+				"pic": "http://roofknoxville.info/Business_Data/Images/Article_1_image0.gif"
+			}, {
+				"drillName": "אלכסונים",
+				"numOfSets": "3",
+				"numOfRepeats": "15",
+				"musclesGroup": " שרירי בטן צדדיים",
+				"pic": ""
+			}
+		]
+	}
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

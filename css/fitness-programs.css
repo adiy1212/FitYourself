@@ -1,0 +1,141 @@
+
+
+
+
+/* container design*/
+
+#fitContainer{
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom:5em;
+}
+
+
+
+
+/*  program menus design*/
+#programMenus{
+	display: inline-block;
+	vertical-align: top;
+	width: 25%;
+	margin: 1em;
+	margin-right:3em;
+}
+
+.specialMenu{
+	border: 2px solid #F5B824;
+	position: relative;
+	width: 100%;
+	height: 10em;
+	
+}
+
+.proMenuHeadline{
+	position: absolute;
+	bottom:0;
+	color: white;
+	font-weight: bold;
+	font-size: 1.2em;
+	background-color: rgba(1, 1, 1, 0.2);
+	margin:0 auto;
+	text-align: center;
+	width:100%;
+}
+.proMenuHeadline:hover, .text-glow:focus, .text-glow:active{
+	   text-shadow: 1px 0px 20px yellow;
+	   transition: width 0.3s; 
+	   color: #F0FC04;
+}
+.specialMenu:hover, .text-glow:focus, .text-glow:active{
+	border: 3px solid #F0FC04;
+	text-shadow: 1px 0px 20px yellow;
+	transition: width 0.3s; 
+	color: #F0FC04;
+}
+
+#beginnerpro{
+	background: url("../images/beginners.jpg") no-repeat 0 0;
+	background-size: 100% 100%;
+}
+#basepro{
+	background: url("../images/base.jpg") no-repeat 0 0;
+	background-size: 100% 100%;
+	
+}
+#weightlosspro{
+	background: url("../images/weightloss.jpg") no-repeat 0 0;
+	background-size: 100% 100%;
+}
+#aerobicpro{
+	background: url("../images/aerobic.jpg") no-repeat 0 0;
+	background-size: 100% 100%;
+}
+#musclespro{
+	background: url("../images/muscles.jpg") no-repeat 0 0;
+	background-size: 100% 100%;
+}
+#mypro{
+	background: url("../images/myprogram.jpg")  no-repeat 0 0;
+	background-size: 100% 100%;
+}
+.subheadline{
+	
+	display:;
+}
+
+/* special programs*/
+#specialProgramsWrapper,#myProwrapper{
+	background:url("../images/programBG.jpg") no-repeat 0 0;
+	background-size: 100% 100%;
+	display:none;
+}
+.progContainer{
+	padding: 5em ;
+	padding-bottom: 6em;
+}
+/* table and head*/
+table{
+	border: 1px solid #7994A7;
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+}
+.exhead{
+	font-size: 2em;
+	color:#D87020;
+	text-align: center;
+}
+.exhead span{
+	font-size: 0.5em;
+}
+.backtomenu{
+	text-align: left;
+	font-size:1.25em;
+	color:#EEDDEE;
+	margin-top: 0.5em;
+}
+.backtomenu:hover, .text-glow:focus, .text-glow:active{
+	   text-shadow: 1px 0px 20px yellow;
+	   transition: width 0.3s; 
+	   color: #F5B824;
+	   cursor: pointer;
+}
+
+/* subheads*/
+.exsubhead{
+	font-size: 1.25em;
+	padding: 0.25em;
+	color:#8DA9AC;
+}
+
+
+/* td and info*/
+td{
+	border: 1px solid #808080;
+	color:#808080;
+}
+td img{
+	width:4em;
+	height:3em;
+}
+
