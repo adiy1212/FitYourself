@@ -8,24 +8,24 @@
 			{
 
 				"drillName": "",
-				"numOfSets": "1",
-				"numOfRepeats": "10 דקות",
-				"musclesGroup": "תאומים, סיבולת לב ריאה, ארבע ראשי" ,
+				"numOfSets": "",
+				"numOfRepeats": "",
+				"musclesGroup": "" ,
 				"pic": ""
 			}, {
-				"drillName": "הליכון",
-				"numOfSets": "1",
-				"numOfRepeats": "10 דקות ",
-				"musclesGroup": "סיבולת לב ריאה, רגליים",
+				"drillName": "",
+				"numOfSets": "",
+				"numOfRepeats": " ",
+				"musclesGroup": "",
 				"pic": ""
 			}
 		]
 	}	, {
 		"excheadline": "חזה",
-		"timesaweek": "מומלץ פעם בשבוע",
+		"timesaweek": "",
 		"programinfo": [
 			{
-				"drillName": "לחיצת חזה בשכיבה",
+				"drillName": "ל",
 				"numOfSets": "2",
 				"numOfRepeats": "7",
 				"musclesGroup": "חזה קדמי" ,

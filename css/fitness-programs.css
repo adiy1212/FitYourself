@@ -138,4 +138,34 @@ td img{
 	width:4em;
 	height:3em;
 }
+/* media queries  */
+
+@media (max-width: 768px) and (orientation:portrait) {
+	
+	#fitContainer{
+	width: 100%;	
+}
+/* special programs*/
+#specialProgramsWrapper,#myProwrapper{
+	background:url("../images/programBG.jpg") no-repeat 0 0;
+	background-size: 100% 100%;
+	display:none;
+}
+.progContainer{
+	padding: 6em ;
+	padding-bottom: 6em;
+}
+/* table and head*/
+table{
+	border: 1px solid #7994A7;
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+}
+.backtomenu{
+	  margin-bottom:5em;
+}
+
+	
+}
 

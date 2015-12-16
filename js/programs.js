@@ -17,7 +17,13 @@ app.controller("programsController", function($scope, $http) {
 		document.getElementById("myProwrapper").style.display = "none";
 		document.getElementById("prohead").innerHTML = "תוכניות אימונים";
 	};
-
+	// set my program function to save my info  //
+	$scope.setMyProgram= function(){
+		console.log($scope.myPrograms);
+		
+	};
+	
+	
 	// onclick show me the specific program only//
 	$scope.setprogram = function(programname, headline) {
 		

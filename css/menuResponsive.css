@@ -1,0 +1,44 @@
+/* media queries  */
+
+@media (max-width: 768px) and (orientation:portrait) {
+	/* logo design */
+
+div.logo {
+	float: clear;
+	text-align: center;
+	width:100%;
+	
+}
+div.logo img#logo {
+	
+}
+	/* nav bar */
+nav#nav-bar {
+	display: block;
+	margin:1em 0;
+	float:clear;
+	direction: rtl;
+	
+}
+	ul#main-menu li {
+		display: block;
+		position: relative;
+		width: 10em;
+		text-align: center;
+	}
+	ul#main-menu  a {
+		text-decoration: none;
+		display: block;
+		color: #819BAC;
+		background-color: #F4F4F4;
+		border-right: 1px solid #FFFFFF;
+	}
+	/*search design  */
+div#search {
+	
+	width: 50%;
+	margin: 2em auto;
+	height: 5em;
+	
+}
+}

@@ -1,0 +1,28 @@
+[
+
+	{
+		"menuid": "veg",
+		"headline": "ירקות ופירות",
+		"menulink": "cal1"
+	}, {
+		"menuid": "dairy",
+		"headline": "מוצרי חלב",
+		"menulink": "cal2"
+	}, {
+		"menuid": "meat",
+		"headline": " בשר",
+		"menulink": "cal3"
+	}, {
+		"menuid": "pasta",
+		"headline": "  פסטות וקטניות",
+		"menulink": "cal4"
+	}, {
+		"menuid": "bread",
+		"headline": "לחמים",
+		"menulink": "cal5"
+	}, {
+		"menuid": "drinks",
+		"headline": "משקאות",
+		"menulink": "cal6"
+	}
+]

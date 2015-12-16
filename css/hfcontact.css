@@ -1,61 +1,81 @@
-body{
+body {
 	width: 100%;
-	height:inherit;
+	height: inherit;
 }
-.contact-container{
-text-align: right;
+.contact-container {
+	text-align: right;
 	direction: rtl;
-	width:100%;
-	height:50em;
-	//background:url("../images/contact1.png") repeat 0 0;
+	width: 100%;
+	height: 50em;//
+	background: url("../images/contact1.png") repeat 0 0;
 	background-size: 70% 70%;
 }
-#contactUs-block,#contact-details,#contact-tips{
-	float:right;
-	border: 2px solid #3D8A99;
+#contactUs-block, #contact-details, #contact-tips {
+	float: right;
 	width: 40%;
 	margin-right: 5%;
-	padding: 1%;
-	color:#808080;
-	
-	background-color:#E0F2F7;
-	
+	padding: 3.5em;
+	color: #808080;
+	background: url("../images/contactbg.png") no-repeat 0 0;
+	background-size: 100% 100%;
 }
-#contact-details{
+#contactUs-block {
+	padding-bottom: 1em;
+}
+#contact-details {
 	width: 20%;
-    margin-right: 15em;
-   background-color: #FBEFFB;
-   border: 2px solid #A17297;
+	margin-right: 10em;
 }
-h2{
-	color:#e87162;
-}
-#contact-tips{
-	margin-top:2%;
+
+#contact-tips {
+	margin-top: 2%;
 	clear: both;
 	width: 50%;
-	background-color: #CEF6CE; 
-	 border: 2px solid #6CA867;
-	
 }
-textarea{
+h2 {
+	color: #e87162;
+}
+textarea {
 	width: 60%;
 	height: 40%;
 }
 /* form lines */
-.form-line{
+.form-line {
 	margin-bottom: 2%;
 }
 /* image */
-#contactImg{
-	background-image:url("../images/contact1.png") ;
+#contactImg {
+	background-image: url("../images/contact1.png");
 	direction: ltr;
-	float:right;
+	float: right;
 	width: 30%;
 	height: 30em;
-	position:relative;
+	position: relative;
 	bottom: 10em;
 }
-#contactImg img{
-	height:15%;
+#contactImg img {
+	height: 15%;
+}
+
+/* media queries  */
+
+@media (max-width: 768px) and (orientation: portrait) {
+
+	#contactUs-block, #contact-details, #contact-tips {
+		float: clear;
+		display: block;
+		width: 60%;
+		margin: 0 auto;
+		margin-bottom: 1em;
+		padding: 3.5em;
+	}
+	.contact-container {
+		text-align: center;
+		width: 90%;
+		height: 50em;
+		background: url("../images/contact1.png") repeat 0 0;
+		background-size: 70% 70%;
+	}
+	
+
 }

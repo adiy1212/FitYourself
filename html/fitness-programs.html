@@ -6,6 +6,9 @@
 		<link type="text/css" rel="stylesheet" href="../css/nutrition-main.css">
 		<link type="text/css" rel="stylesheet" href="../css/homepage.css">
 		<link type="text/css" rel="stylesheet" href="../css/fitness-programs.css">
+		<link type="text/css" rel="stylesheet" href="../css/menuResponsive.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
 
 		<title>fityourself-fitness-programs</title>
 
@@ -15,7 +18,7 @@
 		<header>
 			<!-- Logo -->
 			<div class="logo">
-				Fit y<span><img id="logo" src="../images/fit1.png"  /></span>urself
+				<span><img id="logo" src="../images/logo.png"  /></span>
 			</div>
 			<!--nav bar-->
 			<nav>
@@ -65,9 +68,7 @@
 								<a href="health-diagnostic.html"> אבחון מחלות</a>
 							</li>
 
-							<li>
-								<a>b </a>
-							</li>
+							
 						</ul>
 					</li>
 					<li class="main">
@@ -81,10 +82,7 @@
 		<div class="mainsearch" id="search">
 
 			<form>
-				<button onclick="">
-					search
-				</button>
-				<input type="text" name="mainsearch" placeholder="Enter keyboard here ..."/>
+				
 
 			</form>
 
@@ -224,6 +222,32 @@
 									</tr>
 								</tbody>
 							</table>
+							
+							<!--table>
+								<thead>
+									<div class="exhead">
+										{{program.excheadline}} <span> ({{program.timesaweek}})</span>
+									</div>
+								</thead>
+								<tbody>
+									<tr >
+										<td class="exsubhead">שם התרגיל</td>
+										<td class="exsubhead">מספר סטים</td>
+										<td class="exsubhead">מספר חזרות</td>
+										<td class="exsubhead">קבוצות שרירים </td>
+										<td class="exsubhead">תיאור</td>
+
+									</tr>
+									<tr ng-repeat="drill in  program.programinfo ">
+
+										<td><input ng-change= "setMyProgram()" type="text">"{{drill.drillName}}"</input></td>
+										<td><input ng-change= "setMyProgram()" type="number">{{drill.numOfSets}}"</td>
+										<td><input ng-change= "setMyProgram()" type="number">{{drill.numOfRepeats}}</td>
+										<td><input ng-change= "setMyProgram()" type="text">{{drill.musclesGroup}}</td>
+
+									</tr>
+								</tbody>
+							</table-->
 
 						</div>
 					</div>

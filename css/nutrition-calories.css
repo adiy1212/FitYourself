@@ -1,0 +1,69 @@
+
+
+
+/* calories menu */
+
+#veg{
+	background: url("http://www.chicvegan.com/wp-content/uploads/2014/10/Variety-Vegetables.jpg") no-repeat 0 0 ;
+	background-size: 100% 100%;
+}
+#dairy{
+	background: url("http://www.healthywomen.org/sites/default/files/dairy-products.jpg") no-repeat 0 0 ;
+	background-size: 100% 100%;
+}
+
+#meat{
+	background: url("http://www.datili.co.il/files_media/5c7b477162a12d1c1785fd6ae2eb3d85.jpg") no-repeat 0 0 ;
+	background-size: 100% 100%;
+	
+}
+
+#pasta{
+	
+	background: url("http://www.italianfood.net/wp-content/uploads/2015/03/pasta-semola.jpg") no-repeat 0 0 ;
+	background-size: 100% 100%;
+}
+
+#bread{
+	background: url("http://www.netogreen.co.il/UserFiles/Image/channeldiet2/shutterstock_bread_4416880.jpg") no-repeat 0 0 ;
+	background-size: 100% 100%;
+}
+
+#drinks{
+	background: url("http://cdn.shape.com/sites/shape.com/files/styles/600x600/public/media/juice-drinks-700.jpg?itok=aVBgzCWJ") no-repeat 0 0 ;
+	background-size: 100% 100%;
+	
+}
+
+/*calories table*/
+.productSearch{
+	margin: 1em;
+	font-size: 1.5em;
+	color:#6CA867;
+}
+table{
+	border: 1px solid #6CA867;
+	width:100%;
+	font-size: 1.5em;
+	text-align: center;
+}
+#tableheadline{
+	color:#D87020;
+	background-color:#EEDDEE;
+}
+.caloriesTable{
+	width: 70%;
+	height: 1em;
+	background-color: #EBF5FE;
+	color:#808080;
+}
+td{
+	width:28%;
+}
+.calvalue{
+	color: #8A0917;
+	width:3em;;
+}
+#calTableContainer{
+	display:none;
+}

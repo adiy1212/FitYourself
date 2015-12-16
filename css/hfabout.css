@@ -7,9 +7,11 @@
 }
 #about-us{
 	float: right;
+	background: url("../images/aboutblock.png") no-repeat 0 0;
+	background-size: 100% 100%;
+	
 	width: 40%;
-	border: 1px solid #D87020;
-	padding:3%;
+	padding:3em 3em 5em 3em;
 	margin-right:5%;
 	overflow: hidden;
 	color: #595241;
@@ -31,6 +33,7 @@
 	height: 30em;
 	width:	20% ;
 	border: 1px solid #3D8A99;
+	display:none;
 }
 
 
@@ -73,10 +76,48 @@ a{
 /* about slogen*/
 div#about-slogen{
 	float:right;
-	width: 22%;
-	height: 50%;
+	width: 45%;
+	height: 40%;
+	margin-right: 2em;
+	
+	 
 }
 #about-slogen img{
-	width: 115%;
+	width: 100%;
 	height:30em;
+	border-radius: 5%;
+	
+}
+
+/* media queries  */
+
+@media (max-width: 768px) and (orientation:portrait) {
+	
+	#about-container{
+	text-align: center;
+	direction: rtl;
+	width:100%;
+	padding: 1em;
+	margin:0 auto;
+	
+}
+#about-us{
+	float: clear;
+	background: url("../images/aboutblock.png") no-repeat 0 0;
+	background-size: 100% 100%;
+	width: 70%;
+	margin:0 auto;
+	
+}
+/* about slogen*/
+
+div#about-slogen{
+	display:none;
+	
+	 
+}
+
+
+	
+	
 }

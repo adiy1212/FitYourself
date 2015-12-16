@@ -5,15 +5,18 @@
 		<meta charset="UTF-8" />
 		<link type="text/css" rel="stylesheet" href="../css/nutrition-main.css">
 		<link type="text/css" rel="stylesheet" href="../css/homepage.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>fityourself - nutrition-main</title>
-	
+
 	</head>
 
 	<body>
 		<header>
 			<!-- Logo -->
 			<div class="logo">
-				Fit y<span><img id="logo" src="../images/fit1.png"  /></span>urself
+				<div class="logo">
+					<span><img id="logo" src="../images/logo.png"  /></span>
+				</div>
 			</div>
 			<!--nav bar-->
 			<nav>
@@ -62,10 +65,7 @@
 							<li>
 								<a href="health-diagnostic.html"> אבחון מחלות</a>
 							</li>
-							
-							<li>
-								<a>b </a>
-							</li>
+
 						</ul>
 					</li>
 					<li class="main">
@@ -78,11 +78,8 @@
 
 		<div class="mainsearch" id="search">
 
-			<form><button onclick="">
-					search
-				</button>
-				<input type="text" name="mainsearch" placeholder="Enter keyboard here ..."/>
-				
+			<form>
+
 			</form>
 
 		</div>
@@ -103,7 +100,7 @@
 			<div class="articleWrapper">
 				<!-- main article -->
 				<div class="mainArticleWrap" ng-controller="mainArticleController" >
-					
+
 					<div class="mainArticleHeaders">
 						<img class="imgMainArticle" ng-src="{{mainarticle.pic}}">
 						<a ng-href="{{mainarticle.link}}"> <h2>{{mainarticle.headline}}</h2>
@@ -111,7 +108,7 @@
 							{{mainarticle.subarticle}}
 						</p> </a>
 					</div>
-					
+
 				</div>
 				<!-- sub articles -->
 				<div class="articleSub" ng-controller="subArticlesController">
@@ -121,11 +118,10 @@
 							<a ng-href="{{article.link}}"> <h2>{{article.headline}}</h2>
 							<p>
 								{{article.subarticle}}
-							</p> 
-							</a>
+							</p> </a>
 							<img ng-src="{{article.pic}}">
 						</div>
-						
+
 					</div>
 
 				</div>
@@ -142,12 +138,12 @@
 		</footer>
 
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.3/angular.min.js"></script>
-		
+
 		<script>
 			var app = angular.module("nApp", []);
 
 			app.controller("mainArticleController", function($scope, $http) {
-				
+
 				$http.get("../json/mainnutrition1.json").success(function(data) {
 					$scope.mainarticle = data;
 
